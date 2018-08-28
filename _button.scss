@@ -1,0 +1,38 @@
+.button{
+  width: auto;
+  display: inline-block;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: ProximaNova-Semibold;
+  &:hover{
+    text-decoration: none;
+    color: #fff;
+  }
+}
+.image_button{
+  width: 30px;
+  height: 19px;
+  margin-right: 15px;
+  vertical-align: sub;
+}
+.get-started{
+  .button_block{
+    max-width: 240px;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 52px;
+    padding: 0;
+    font-family: ProximaNova-Semibold;
+    font-size: 18px;
+  }
+  .button{
+    display: block;
+    text-align: center;
+    border-radius: 3px;
+    padding: 0;
+    &:hover{
+      background: #0aafeb!important;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.inspiring-item_slide-block{
+  display: block;
+  position: relative;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  box-shadow: inset 0px -113px 72px -31px rgba(0, 0, 0, .2);
+  &:hover{
+    text-decoration: none;
+    color: #fff;
+  }
+  .inspiring-item__name{
+    margin: 0 0 4px;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-family: SFProDisplay-Bold;
+    font-weight: bold;
+    @media (max-width: 767px) {
+      font-size: 15px;
+      margin-bottom: 0;
+    }
+  }
+  .photosCount {
+    font-family: ProximaNova-Regular;
+    font-size: 14px;
+    letter-spacing: .5px;
+  }
+}
+
+.inspiring-item__title {
+  text-align: left;
+  background-color: transparent;
+  position: absolute;
+  bottom: 12px;
+  color: #fffefe;
+  left: 23px;
+  line-height: normal;
+  @media (max-width: 767px) {
+    left: 8px;
+    bottom: 7px;
+  }
+}
